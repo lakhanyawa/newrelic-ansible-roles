@@ -1,0 +1,15 @@
+---
+nr_java_agent_default_config:
+  attributes:
+  transaction_tracer:
+  error_collector:
+  transaction_events:
+  distributed_tracing:
+  cross_application_tracer:
+  thread_profiler:
+  browser_monitoring:
+  labels:
+nr_java_agent_host_config: {}
+nr_java_agent_version: current
+nr_java_agent_zip_location: "https://download.newrelic.com/newrelic/java-agent/newrelic-agent/{{ nr_java_agent_version }}/newrelic-java.zip"
+nr_java_agent_zip_is_remote: true
